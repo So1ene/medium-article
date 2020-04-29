@@ -1,0 +1,82 @@
+body {
+  color: rgba(34, 34, 34, 1);
+  background: rgba(245, 245, 250, 1);
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  font-family: 'Bad Script', cursive;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 40px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: rgba(100, 100, 130, 1);
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: rgba(130, 130, 170, 1);
+  font-weight: bold;
+    background-image: linear-gradient(to bottom, rgba(200, 200, 250, 0), rgba(200, 200, 250, 0.3));
+}
+
+a:hover {
+  color: rgba(80, 80, 100, 1);
+  background-image: linear-gradient(to bottom, rgba(200, 200, 250, 0), rgba(190, 190, 230, 1));
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 20, 0.2), rgba(0, 0, 20, 0.6)),
+url('https://source.unsplash.com/random/1000x500');
+  background-size: cover;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  padding: 30px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
